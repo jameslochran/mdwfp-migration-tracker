@@ -8,8 +8,11 @@ from pandas.api.types import (
     is_numeric_dtype,
     is_object_dtype,
 )
-
+st.set_page_config(page_title="Migration Tracker - ", page_icon="📄", layout="wide")
 st.title('MDWFP Migration Tracker')
+st.markdown('Track the progress of individual page migration status for the MDWFP project') 
+
+
 
 def convert_df(df):
    return df.to_csv(index=False).encode('utf-8')
@@ -20,8 +23,8 @@ def convert_df(df):
 
 df = pd.read_csv('folder/out.csv').astype(str) 
 df['Notes'] = ''
-users = ['Jim', 'Bob', 'Sally']
-progress = ['In Progress', 'Content Review', 'Client Review', 'Done']
+users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
+progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
 config = {
     'Assignment' : st.column_config.SelectboxColumn('Name', options=users),
     'State' : st.column_config.SelectboxColumn('State', options=progress),
@@ -53,82 +56,99 @@ if button:
     os.makedirs('folder/', exist_ok=True)
     edited_df.to_csv('folder/out.csv', index=False) 
 
+inprog = edited_df['State'].value_counts()['In Progress']   
+backlog = edited_df['State'].value_counts()['Backlog']  
+done = edited_df['State'].value_counts()['Done']  
+review = edited_df['State'].value_counts()['Client Review']     
 
-#Filtered results
-def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
-    """
-    Adds a UI on top of a dataframe to let viewers filter columns
-
-    Args:
-        df (pd.DataFrame): Original dataframe
-
-    Returns:
-        pd.DataFrame: Filtered dataframe
-    """
-    modify = st.checkbox("Add filters")
-
-    if not modify:
-        return df 
+with st.expander("See metrics"):
+    st.write('Story status metrics')
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Backlog", backlog)
+    col2.metric("In Progress", inprog)
+    col3.metric("Content Review", review)
+    col4.metric("Done", done)
     
-df = df.copy()
-modification_container = st.container()
+ 
 
 
 
 
-st.dataframe(filter_dataframe(df)
-)
+# #Filtered results
+# def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
+#     """
+#     Adds a UI on top of a dataframe to let viewers filter columns
 
-def filters_widgets(df, columns=None, allow_single_value_widgets=False):
-    # Parse the df and get filter widgets based for provided columns
-    if not columns: #if columns not provided, use all columns to create widgets
-        columns=df.columns.tolist()
-    if allow_single_value_widgets:
-        threshold=0
-    else:
-        threshold=1
-    widget_dict = {}
-    filter_widgets = st.container()
-    filter_widgets.warning(
-        "After selecting filters press the 'Apply Filters' button at the bottom.")
-    if not allow_single_value_widgets:
-        filter_widgets.markdown("Only showing columns that contain more than 1 unique value.")
-    with filter_widgets.form(key="data_filters"):
-        not_showing = [] 
-        for y in df[columns]:
-            if str(y) in st.session_state: #update value from session state if exists
-                selected_opts = st.session_state[str(y)]
-            else: #if doesnt exist use all values as defaults
-                selected_opts = df[y].unique().tolist()
-            if len(df[y].unique().tolist()) > threshold: #checks if above threshold
-                widget_dict[y] = st.multiselect(
-                    label=str(y),
-                    options=df[y].unique().tolist(),
-                    default=selected_opts,
-                    key=str(y),
-                )
-            else:#if doesnt pass threshold
-                not_showing.append(y)
-        if not_showing:#if the list is not empty, show this warning
-            st.warning(
-                f"Not showing filters for {' '.join(not_showing)} since they only contain one unique value."
-            )
-        submit_button = st.form_submit_button("Apply Filters")
-    #reset button to return all unselected values back
-    reset_button = filter_widgets.button(
-        "Reset All Filters",
-        key="reset_buttons",
-        on_click=reset_filter_widgets_to_default,
-        args=(df, columns),
-    )
-    filter_widgets.warning(
-        "Dont forget to apply filters by pressing 'Apply Filters' at the bottom."
-    )
+#     Args:
+#         df (pd.DataFrame): Original dataframe
 
-def reset_filter_widgets_to_default(df, columns):
-    for y in df[columns]:
-        if str(y) in st.session_state:
-            del st.session_state[y]
+#     Returns:
+#         pd.DataFrame: Filtered dataframe
+#     """
+#     modify = st.checkbox("Add filters")
+
+#     if not modify:
+#         return df 
+    
+# df = df.copy()
+# modification_container = st.container()
 
 
-filters_widgets(df)    
+
+
+# st.dataframe(filter_dataframe(df)
+# )
+
+# def filters_widgets(df, columns=None, allow_single_value_widgets=False):
+#     # Parse the df and get filter widgets based for provided columns
+#     if not columns: #if columns not provided, use all columns to create widgets
+#         columns=df.columns.tolist()
+#     if allow_single_value_widgets:
+#         threshold=0
+#     else:
+#         threshold=1
+#     widget_dict = {}
+#     filter_widgets = st.container()
+#     filter_widgets.warning(
+#         "After selecting filters press the 'Apply Filters' button at the bottom.")
+#     if not allow_single_value_widgets:
+#         filter_widgets.markdown("Only showing columns that contain more than 1 unique value.")
+#     with filter_widgets.form(key="data_filters"):
+#         not_showing = [] 
+#         for y in df[columns]:
+#             if str(y) in st.session_state: #update value from session state if exists
+#                 selected_opts = st.session_state[str(y)]
+#             else: #if doesnt exist use all values as defaults
+#                 selected_opts = df[y].unique().tolist()
+#             if len(df[y].unique().tolist()) > threshold: #checks if above threshold
+#                 widget_dict[y] = st.multiselect(
+#                     label=str(y),
+#                     options=df[y].unique().tolist(),
+#                     default=selected_opts,
+#                     key=str(y),
+#                 )
+#             else:#if doesnt pass threshold
+#                 not_showing.append(y)
+#         if not_showing:#if the list is not empty, show this warning
+#             st.warning(
+#                 f"Not showing filters for {' '.join(not_showing)} since they only contain one unique value."
+#             )
+#         submit_button = st.form_submit_button("Apply Filters")
+#     #reset button to return all unselected values back
+#     reset_button = filter_widgets.button(
+#         "Reset All Filters",
+#         key="reset_buttons",
+#         on_click=reset_filter_widgets_to_default,
+#         args=(df, columns),
+#     )
+#     filter_widgets.warning(
+#         "Dont forget to apply filters by pressing 'Apply Filters' at the bottom."
+#     )
+
+# def reset_filter_widgets_to_default(df, columns):
+#     for y in df[columns]:
+#         if str(y) in st.session_state:
+#             del st.session_state[y]
+
+
+# filters_widgets(df)    
