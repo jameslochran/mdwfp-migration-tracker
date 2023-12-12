@@ -124,10 +124,10 @@ def run():
         }
     df = df.astype(str)
     edited_df = df
-    st.data_editor(filter_dataframe(edited_df),column_config=config, column_order=('State', 'Assignment', 'Content Guidance','URL', 'Title', 'Suggested Title'),key=1234 )
+    st.data_editor(filter_dataframe(df),column_config=config, column_order=('State', 'Assignment', 'Content Guidance','URL', 'Title', 'Suggested Title'),key=1234 )
 
 
-    # edited_df=st.data_editor(df, column_config=config, column_order=('State', 'Assignment', 'Content Guidance','URL', 'Title', 'Suggested Title'),key=45678)
+    edited_df=st.data_editor(df, column_config=config, column_order=('State', 'Assignment', 'Content Guidance','URL', 'Title', 'Suggested Title'),key=45678)
     
 
 
@@ -138,6 +138,7 @@ def run():
     if button:
         os.makedirs('folder/', exist_ok=True)
         edited_df.to_csv('folder/out.csv', index=False) 
+        
 
     inprog = edited_df['State'].value_counts()['In Progress']   
     backlog = edited_df['State'].value_counts()['Backlog']  
