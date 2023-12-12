@@ -57,7 +57,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     modification_container = st.container()
 
     with modification_container:
-        to_filter_columns = st.multiselect("Filter dataframe on", df.columns)
+        to_filter_columns = st.multiselect("Filter table on", df.columns)
         for column in to_filter_columns:
             left, right = st.columns((1, 20))
             left.write("↳")
@@ -101,6 +101,20 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
                     df = df[df[column].str.contains(user_text_input)]
 
     return df
+def getData():
+    df = pd.read_csv('folder/out.csv').astype(str) 
+   
+    users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
+    progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
+    config = {
+      'Assignment' : st.column_config.SelectboxColumn('Name', options=users),
+      'State' : st.column_config.SelectboxColumn('State', options=progress),
+      'Notes': st.column_config.TextColumn('Notes', width="Large"),
+      'New URL': st.column_config.TextColumn('New URL', width="None"),
+      
+        }
+    df = df.astype(str)
+    return df
 
 
 def run():
@@ -108,28 +122,30 @@ def run():
 
 
     st.title('MDWFP Migration Tracker')
-    st.markdown('Track the progress of individual page migration status for the MDWFP project') 
+    st.subheader('Track the progress of individual page migration status for the MDWFP project') 
 
 
-
-    df = pd.read_csv('folder/out.csv').astype(str) 
-    df['Notes'] = ''
+    df = getData()
+    # df = pd.read_csv('folder/out.csv').astype(str) 
+   
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
     config = {
-      'Assignment' : st.column_config.SelectboxColumn('Name', options=users),
-      'State' : st.column_config.SelectboxColumn('State', options=progress),
-      'Content Guidance' : st.column_config.Column('Notes', help="Add notes here",
-              width="large")
+      'Users' : st.column_config.SelectboxColumn('Name', options=users),
+      'State' : st.column_config.SelectboxColumn('State', options=progress, default='Backlog'),
+      'Notes': st.column_config.TextColumn('Notes', width="Large"),
+      'New URL': st.column_config.TextColumn('New URL', width="Medium"),
+      
         }
     df = df.astype(str)
     edited_df = df
-    st.data_editor(filter_dataframe(df),column_config=config, column_order=('State', 'Assignment', 'Content Guidance','URL', 'Title', 'Suggested Title'),key=1234 )
+    st.markdown('This table provides a view of the stories based on the filters that have been applied.')
+    st.markdown('Check the add filters box to see the filter options. Filters can be grouped by selecting multiple columns. ')
+    filtered_df = st.data_editor(filter_dataframe(df),column_config=config, column_order=('State', 'Users', 'Notes','Legacy URL','New URL', 'Title', 'Suggested Title', 'Jira Epic'),key=1234 )
 
-
-    edited_df=st.data_editor(df, column_config=config, column_order=('State', 'Assignment', 'Content Guidance','URL', 'Title', 'Suggested Title'),key=45678)
     
-
+    edited_df.update(filtered_df)
+    # st.dataframe(edited_df)
 
     button = st.button("Save")
 
@@ -138,6 +154,15 @@ def run():
     if button:
         os.makedirs('folder/', exist_ok=True)
         edited_df.to_csv('folder/out.csv', index=False) 
+        edited_df = getData() 
+        
+    
+ 
+
+
+
+    
+        
         
 
     inprog = edited_df['State'].value_counts()['In Progress']   
