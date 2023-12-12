@@ -26,6 +26,7 @@ from pandas.api.types import (
 
 LOGGER = get_logger(__name__)
 
+
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """
     Adds a UI on top of a dataframe to let viewers filter columns
@@ -119,6 +120,7 @@ def getData():
 
 def run():
     st.set_page_config(page_title="Migration Tracker - ", page_icon="📄", layout="wide")
+    
 
 
     st.title('MDWFP Migration Tracker')
