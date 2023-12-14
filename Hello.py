@@ -104,14 +104,19 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     return df
 def getData():
     df = pd.read_csv('folder/out.csv').astype(str) 
-   
+    
+    merge = ["Merge ⬆️", "Merge ⬇️"]   
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
     config = {
       'Assignment' : st.column_config.SelectboxColumn('Name', options=users),
       'State' : st.column_config.SelectboxColumn('State', options=progress),
+      'Merge' : st.column_config.SelectboxColumn('Merge', options=merge),
       'Notes': st.column_config.TextColumn('Notes', width="Large"),
-      'New URL': st.column_config.TextColumn('New URL', width="None"),
+      'New URL': st.column_config.TextColumn('New URL', width="Medium"),
+      'Legacy URL': st.column_config.LinkColumn('Legacy URL', help="URL to old site", validate="^https://[a-z]+\.streamlit\.app$",
+            max_chars=100,)
+      
       
         }
     df = df.astype(str)
@@ -129,27 +134,33 @@ def run():
 
     df = getData()
     # df = pd.read_csv('folder/out.csv').astype(str) 
-   
+    
+    merge = ["Merge ⬆️", "Merge ⬇️"] 
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
     config = {
       'Users' : st.column_config.SelectboxColumn('Name', options=users),
       'State' : st.column_config.SelectboxColumn('State', options=progress, default='Backlog'),
+      'Merge' : st.column_config.SelectboxColumn('Merge', options=merge, width="Large"),
       'Notes': st.column_config.TextColumn('Notes', width="Large"),
       'New URL': st.column_config.TextColumn('New URL', width="Medium"),
+      'Legacy URL': st.column_config.LinkColumn('Legacy URL', help="URL to old site", validate="^https://[a-z]+\.streamlit\.app$",
+            max_chars=100,)
       
         }
     df = df.astype(str)
     edited_df = df
     st.markdown('This table provides a view of the stories based on the filters that have been applied.')
+    st.link_button("Figma Design", "https://www.figma.com/file/e6ygQs8uULxi9tx16aGnhu/Low-fidelity-Mock-ups?type=design&node-id=333%3A1743&mode=design&t=6GZLiRRRPt0HXqxG-1")
     st.markdown('Check the add filters box to see the filter options. Filters can be grouped by selecting multiple columns. ')
-    filtered_df = st.data_editor(filter_dataframe(df),column_config=config, column_order=('State', 'Users', 'Notes','Legacy URL','New URL', 'Title', 'Suggested Title', 'Jira Epic'),key=1234 )
+    filtered_df = st.data_editor(filter_dataframe(df),column_config=config, column_order=('State', 'Users', 'Notes','Merge','Legacy URL','New URL', 'Title', 'Suggested Title', 'Jira Epic'),key=1234 )
 
     
     edited_df.update(filtered_df)
     # st.dataframe(edited_df)
 
     button = st.button("Save")
+
 
     st.write('Make sure you save your changes')
 
@@ -160,8 +171,6 @@ def run():
         
     
  
-
-
 
     
         
