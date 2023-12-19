@@ -124,7 +124,7 @@ def getData():
 
 
 def run():
-    st.set_page_config(page_title="Migration Tracker - ", page_icon="📄", layout="wide")
+    st.set_page_config(page_title="Migration Tracker", page_icon="📄", initial_sidebar_state="collapsed", layout="wide", menu_items={'About': "# This is a header. This is an *extremely* cool app!"})
     
 
 
@@ -136,7 +136,7 @@ def run():
     # df = pd.read_csv('folder/out.csv').astype(str) 
     
     merge = ["Merge ⬆️", "Merge ⬇️"] 
-    users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
+    users = ['Jim', 'Sarah P', 'Sarah C', 'Braden', 'Open']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
     config = {
       'Users' : st.column_config.SelectboxColumn('Name', options=users),
@@ -169,31 +169,84 @@ def run():
         edited_df.to_csv('folder/out.csv', index=False) 
         edited_df = getData() 
         
-    
- 
-
-    
+  
         
-        
+   
+    try: inprog = edited_df.groupby('State').size()['In Progress']  
+    except KeyError:
+        inprog = 0
 
-    inprog = edited_df['State'].value_counts()['In Progress']   
-    backlog = edited_df['State'].value_counts()['Backlog']  
-    done = edited_df['State'].value_counts()['Done']  
-    review = edited_df['State'].value_counts()['Client Review']     
-    content = edited_df['State'].value_counts()['Content Review']  
+    try: backlog = edited_df['State'].value_counts()['Backlog']  
+    except KeyError:
+        backlog = 0
 
-    with st.expander("See metrics"):
+    try: done = edited_df['State'].value_counts()['Done'] 
+    except KeyError:
+        done = 0 
+
+    try: review = edited_df['State'].value_counts()['Client Review']
+    except KeyError:
+        review = 0   
+
+    try: content = edited_df['State'].value_counts()['Content Review'] 
+    except KeyError:
+        content = 0 
+
+    countofRows = len(edited_df)
+
+
+
+    with st.expander("Story Metrics"):
         st.write('Story status metrics')
         col1, col2, col3, col4, col5 = st.columns(5)
         col1.metric("Backlog", backlog)
+        col1.metric('% ', backlog/countofRows*100)
         col2.metric("In Progress", inprog)
+        col2.metric("%", inprog/countofRows*100)
         col3.metric("Content Review", review)
+        col3.metric("%", review/countofRows*100)
         col4.metric("Client Review", content)
+        col4.metric("%", content/countofRows*100)
         col5.metric("Done", done)
+        col5.metric("%", done/countofRows*100)
     
   
     
- 
+    try: u1 = edited_df.groupby('Users').size()[users[0]]  
+    except KeyError:
+        u1 = 0
+
+    try: u2 = edited_df.groupby('Users').size()[users[1]]  
+    except KeyError:
+        u2 = 0
+
+    try: u3 = edited_df.groupby('Users').size()[users[2]]  
+    except KeyError:
+        u3 = 0
+
+    try: u4 = edited_df.groupby('Users').size()[users[3]]  
+    except KeyError:
+        u4 = 0  
+
+    try: u5 = edited_df.groupby('Users').size()[users[4]]  
+    except KeyError:
+        u5 = 0
+    
+    
+       
+    
+    
+    
+    with st.expander("Migrator Metrics"):
+        st.write('Number of stories assigned to each migrator')
+        col6, col7, col8, col9, col10 = st.columns(5)
+        col6.metric(users[0], u1)
+        col7.metric(users[1], u2)
+        col8.metric(users[2], u3)
+        col9.metric(users[3], u4)
+        col10.metric(users[4], u5)
+
+
 
 
 
