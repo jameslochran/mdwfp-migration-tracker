@@ -17,6 +17,7 @@ from streamlit.logger import get_logger
 import pandas as pd
 import numpy as np
 import os
+import hmac
 import csv
 from pandas.api.types import (
     is_categorical_dtype,
@@ -27,6 +28,39 @@ from pandas.api.types import (
 
 LOGGER = get_logger(__name__)
 
+def check_password():
+    """Returns `True` if the user had a correct password."""
+
+    def login_form():
+        """Form with widgets to collect user information"""
+        with st.form("Credentials"):
+            st.text_input("Username", key="username")
+            st.text_input("Password", type="password", key="password")
+            st.form_submit_button("Log in", on_click=password_entered)
+
+    def password_entered():
+        """Checks whether a password entered by the user is correct."""
+        if st.session_state["username"] in st.secrets[
+            "passwords"
+        ] and hmac.compare_digest(
+            st.session_state["password"],
+            st.secrets.passwords[st.session_state["username"]],
+        ):
+            st.session_state["password_correct"] = True
+            del st.session_state["password"]  # Don't store the username or password.
+            del st.session_state["username"]
+        else:
+            st.session_state["password_correct"] = False
+
+    # Return True if the username + password is validated.
+    if st.session_state.get("password_correct", False):
+        return True
+
+    # Show inputs for username + password.
+    login_form()
+    if "password_correct" in st.session_state:
+        st.error("😕 User not known or password incorrect")
+    return False
 
 
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
@@ -135,6 +169,9 @@ def run():
 
     st.title('MDWFP Migration Tracker')
     st.subheader('Track the progress of individual page migration status for the MDWFP project') 
+
+    if not check_password():
+        st.stop()
 
 
     df = getData()
