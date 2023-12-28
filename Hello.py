@@ -148,6 +148,7 @@ def getData():
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
     config = {
+      'count' : st.column_config.TextColumn('effort'),   
       'Assignment' : st.column_config.SelectboxColumn('Name', options=users),
       'State' : st.column_config.SelectboxColumn('State', options=progress),
       'Merge' : st.column_config.SelectboxColumn('Merge', options=merge),
@@ -182,6 +183,7 @@ def run():
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden', 'Open']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
     config = {
+      'count' : st.column_config.TextColumn('effort'),  
       'Users' : st.column_config.SelectboxColumn('Name', options=users),
       'State' : st.column_config.SelectboxColumn('State', options=progress, default='Backlog'),
       'Merge' : st.column_config.SelectboxColumn('Merge', options=merge, width="Large"),
@@ -196,7 +198,7 @@ def run():
     st.markdown('This table provides a view of the stories based on the filters that have been applied.')
     st.link_button("Figma Design", "https://www.figma.com/file/e6ygQs8uULxi9tx16aGnhu/Low-fidelity-Mock-ups?type=design&node-id=333%3A1743&mode=design&t=6GZLiRRRPt0HXqxG-1")
     st.markdown('Check the add filters box to see the filter options. Filters can be grouped by selecting multiple columns. ')
-    filtered_df = st.data_editor(filter_dataframe(df),column_config=config, column_order=('State', 'Users', 'Notes','Merge','Legacy URL','New URL', 'Title', 'Suggested Title', 'Jira Epic'),key=1234 )
+    filtered_df = st.data_editor(filter_dataframe(df),column_config=config, column_order=('count','State', 'Users', 'Notes','Merge','Legacy URL','New URL', 'Title', 'Suggested Title', 'Jira Epic'),key=1234 )
 
     
     edited_df.update(filtered_df)
