@@ -17,6 +17,7 @@ from streamlit.logger import get_logger
 import pandas as pd
 import numpy as np
 import os
+import csv
 from pandas.api.types import (
     is_categorical_dtype,
     is_datetime64_any_dtype,
@@ -25,6 +26,7 @@ from pandas.api.types import (
 )
 
 LOGGER = get_logger(__name__)
+
 
 
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
@@ -105,6 +107,9 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 def getData():
     df = pd.read_csv('folder/out.csv').astype(str) 
     
+
+
+    
     merge = ["Merge ⬆️", "Merge ⬇️"]   
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
@@ -134,6 +139,7 @@ def run():
 
     df = getData()
     # df = pd.read_csv('folder/out.csv').astype(str) 
+    
     
     merge = ["Merge ⬆️", "Merge ⬇️"] 
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden', 'Open']
@@ -252,7 +258,7 @@ def run():
 
 
 
-
+   
 
 
           
