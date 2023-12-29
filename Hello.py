@@ -293,7 +293,46 @@ def run():
 
 
 
+#effort stats
 
+    try: e3 = edited_df['count'].value_counts()['3'] 
+    except KeyError:
+        e3 = 0
+
+    try: e4 = edited_df['count'].value_counts()['4']  
+    except KeyError:
+        e4 = 0
+
+    try: e5 = edited_df['count'].value_counts()['5']
+    except KeyError:
+        e5 = 0
+
+    try: e6 = edited_df['count'].value_counts()['6']
+    except KeyError:
+        e6 = 0  
+
+    try: e7 = edited_df['count'].value_counts()['7'] 
+    except KeyError:
+        e7 = 0
+    
+    
+       
+    
+    
+    
+    with st.expander("Estimation"):
+        st.write('Estimation of the # of hours assocaited with each page category. ')
+        col11, col12, col13, col14, col15 = st.columns(5)
+        col11.metric('Main Landing page or home ', e3)
+        col11.metric('Hours (*2)', e3*2 )
+        col12.metric('Bureau pages', e4)
+        col12.metric('Hours (*2)', e4*2 )
+        col13.metric('landing pages ', e5)
+        col13.metric('Hours (*1)', e5*1 )
+        col14.metric('child pages', e6)
+        col14.metric('Hours (*.5)', e6*.5 )
+        col15.metric('Grandchild pages', e7)
+        col15.metric('Hours (*.5)', e7*.5 )
 
 
 
