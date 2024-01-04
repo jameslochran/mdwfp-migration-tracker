@@ -199,8 +199,14 @@ def run():
     st.link_button("Figma Design", "https://www.figma.com/file/e6ygQs8uULxi9tx16aGnhu/Low-fidelity-Mock-ups?type=design&node-id=333%3A1743&mode=design&t=6GZLiRRRPt0HXqxG-1")
     st.markdown('Check the add filters box to see the filter options. Filters can be grouped by selecting multiple columns. ')
     filtered_df = st.data_editor(filter_dataframe(df),column_config=config, column_order=('count','State', 'Users', 'Notes','Merge','Legacy URL','New URL', 'Title', 'Suggested Title', 'Jira Epic'),key=1234 )
-
     
+    # cycle tracking based on the state
+    filtered_df.loc[filtered_df['State'] == 'Backlog', 'IP'] = pd.to_datetime('now')
+    filtered_df.loc[filtered_df['State'] == 'In progress', 'IP'] = pd.to_datetime('now')
+    filtered_df.loc[filtered_df['State'] == 'Content Review', 'Content Review'] = pd.to_datetime('now')
+    filtered_df.loc[filtered_df['State'] == 'Client Review', 'Client Review'] = pd.to_datetime('now')
+    filtered_df.loc[filtered_df['State'] == 'Done', 'Done'] = pd.to_datetime('now')
+
     edited_df.update(filtered_df)
     # st.dataframe(edited_df)
 
@@ -323,15 +329,15 @@ def run():
     with st.expander("Estimation"):
         st.write('Estimation of the # of hours assocaited with each page category. ')
         col11, col12, col13, col14, col15 = st.columns(5)
-        col11.metric('Main Landing page or home ', e3)
+        col11.metric('Level one ', e3)
         col11.metric('Hours (*2)', e3*2 )
-        col12.metric('Bureau pages', e4)
+        col12.metric('Level two', e4)
         col12.metric('Hours (*2)', e4*2 )
-        col13.metric('landing pages ', e5)
+        col13.metric('Level three ', e5)
         col13.metric('Hours (*1)', e5*1 )
-        col14.metric('child pages', e6)
+        col14.metric('Level four', e6)
         col14.metric('Hours (*.5)', e6*.5 )
-        col15.metric('Grandchild pages', e7)
+        col15.metric('Level five', e7)
         col15.metric('Hours (*.5)', e7*.5 )
 
 
