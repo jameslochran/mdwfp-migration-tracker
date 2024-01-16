@@ -146,7 +146,8 @@ def getData():
     
     merge = ["Merge ⬆️", "Merge ⬇️"]   
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden']
-    progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
+    progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done', 'Mot Prioritized', 'Not migrating', 'Blocked']
+
     config = {
       'count' : st.column_config.TextColumn('effort'),   
       'Assignment' : st.column_config.SelectboxColumn('Name', options=users),
@@ -181,7 +182,7 @@ def run():
     
     merge = ["Merge ⬆️", "Merge ⬇️"] 
     users = ['Jim', 'Sarah P', 'Sarah C', 'Braden', 'Open']
-    progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done']
+    progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done', 'Mot Prioritized', 'Not migrating', 'Blocked']
     config = {
       'count' : st.column_config.TextColumn('effort'),  
       'Users' : st.column_config.SelectboxColumn('Name', options=users),
@@ -245,21 +246,27 @@ def run():
 
     countofRows = len(edited_df)
 
+    bcklog=round(backlog/countofRows*100)
+    inp = round(inprog/countofRows*100)
+    cont = round(review/countofRows*100)
+    rev = round(content/countofRows*100)
+    don = round(done/countofRows*100)
+
 
 
     with st.expander("Story Metrics"):
         st.write('Story status metrics')
         col1, col2, col3, col4, col5 = st.columns(5)
         col1.metric("Backlog", backlog)
-        col1.metric('% ', backlog/countofRows*100)
+        col1.metric('% ', bcklog)
         col2.metric("In Progress", inprog)
-        col2.metric("%", inprog/countofRows*100)
-        col3.metric("Content Review", review)
-        col3.metric("%", review/countofRows*100)
-        col4.metric("Client Review", content)
-        col4.metric("%", content/countofRows*100)
+        col2.metric("%", inp)
+        col3.metric("Content Review", content)
+        col3.metric("%", cont)
+        col4.metric("Client Review", review)
+        col4.metric("%", rev)
         col5.metric("Done", done)
-        col5.metric("%", done/countofRows*100)
+        col5.metric("%", don)
     
   
     
@@ -341,8 +348,14 @@ def run():
         col15.metric('Hours (*.5)', e7*.5 )
 
 
+#Cycle time view
+        
+        
+    with st.expander("Cycle times"):
+        st.write('Time from one state to the next')
+        st.dataframe(edited_df)
 
-   
+
 
 
           
