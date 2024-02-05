@@ -1,9 +1,9 @@
 ﻿,count,State,Users,Notes,Merge,Legacy URL,New URL,Title,Suggested Title,Jira Epic
-0,3,Backlog,Jim,nan, ,https://www.mdwfp.com/,/home,"MS Wildlife, Fisheries, & Parks",nan,nan
-1,4,Backlog,Jim,"Page will be transformed into a richer, more image-heavy and engaging landing page. See designs. ", ,https://www.mdwfp.com/law-enforcement/,nan,MDWFP - Law Enforcement,nan,MDWFP-151
+0,3,In Progress,Jim,nan, ,https://www.mdwfp.com/,/home,"MS Wildlife, Fisheries, & Parks",nan,nan
+1,4,In Progress,Jim,"Page will be transformed into a richer, more image-heavy and engaging landing page. See designs. ", ,https://www.mdwfp.com/law-enforcement/,nan,MDWFP - Law Enforcement,nan,MDWFP-151
 2,5,Backlog,Sarah C,Recommend starting with an intro and carousel if at all possible. Video is also pretty important., ,https://www.mdwfp.com/law-enforcement/fallen-officers-memorial/,nan,MDWFP - Fallen Officers Memorial,nan,MDWFP-151
 3,5,Backlog,Open,Possibly not needed - this only serves as a gateway to three facilities. This might just be consolidated with line 3., ,https://www.mdwfp.com/law-enforcement/shootingfacilities/,nan,MDWFP - ShootingFacilities,Frequently Asked Questions,MDWFP-151
-4,5,Backlog,Open,"Important, and detailed, page, but is a wall of text. Needs more 'chunking' and visual interest. Possible accordions to manage space. ", ,https://www.mdwfp.com/law-enforcement/hunting-rules-regs/,nan,MDWFP - Hunting Rules & Regs,Hunting Rules & Regulations,MDWFP-151
+4,5,Content Review,Sarah P,"Important, and detailed, page, but is a wall of text. Needs more 'chunking' and visual interest. Possible accordions to manage space. ", ,https://www.mdwfp.com/law-enforcement/hunting-rules-regs/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/hunting-rules-and-regulations,MDWFP - Hunting Rules & Regs,Hunting Rules & Regulations,MDWFP-151
 5,5,Backlog,Open,Test,Merge ⬇️,https://www.mdwfp.com/law-enforcement/officer-courtesies/,nan,MDWFP - Officer Courtesies,nan,MDWFP-151
 6,5,Backlog,Open,"Currently this page is a list of links. Instead we should expose helpful content here, using primarily that found on 'General Boating Rules & Regulations'. TBD whether this page can include FAQs or if FAQs should be its own page. Checklist should be incorporated here too, rather than its own page. Most other links on the current page are PDFs or external, which can all remain links. ",Merge ⬆️,https://www.mdwfp.com/law-enforcement/boating-rules-regs/,nan,MDWFP - Boating Rules & Regs,Boating Rules & Regulations,MDWFP-151
 7,6,Backlog,nan,Consolidate with line 8., ,https://www.mdwfp.com/law-enforcement/boating-rules-regs/general-boating-rules-regulations/,nan,MDWFP - General Boating Rules & Regulations,nan,MDWFP-151
@@ -16,27 +16,27 @@
 14,6,Backlog,nan,This appears to be a DUPLICATE. Eliminate., ,https://www.mdwfp.com/law-enforcement/fishing-rules-regs/general-fishing-regs/,nan,MDWFP - General Fishing Regs,Going to be eliminated,MDWFP-151
 15,5,Backlog,nan,This page is reasonable in length and volume. Actions / key links should be called out with a CTA or greater emphasis / prominence and the page could use some visual interest as well. Jump links are unnecessary., ,https://www.mdwfp.com/law-enforcement/boater-education/,nan,MDWFP - Boater Education,nan,MDWFP-151
 16,6,Backlog,nan,This appears to be largely a DUPLICATE. Consolidate with 17 / eliminate., ,https://www.mdwfp.com/law-enforcement/boater-education/online-boaters-ed/,nan,MDWFP - Online Boaters Ed,Going to be eliminated,MDWFP-151
-17,5,Backlog,nan,nan, ,https://www.mdwfp.com/law-enforcement/shooting-facilities/,nan,MDWFP - Shooting Facilities,nan,MDWFP-151
-18,5,Content Review,Sarah P,nan, ,https://www.mdwfp.com/law-enforcement/mchenry-shooting-facility/,https://test-mdwfp.pantheonsite.io/law-enforcement/shooting-facilities/mchenry-shooting-facility,MDWFP - McHenry Shooting Facility,nan,MDWFP-151
+17,5,Blocked,Sarah P,nan, ,https://www.mdwfp.com/law-enforcement/shooting-facilities/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/shooting-facilities,MDWFP - Shooting Facilities,nan,MDWFP-151
+18,5,Content Review,Sarah P,Missing photo gallery, ,https://www.mdwfp.com/law-enforcement/mchenry-shooting-facility/,https://test-mdwfp.pantheonsite.io/law-enforcement/shooting-facilities/mchenry-shooting-facility,MDWFP - McHenry Shooting Facility,nan,MDWFP-151
 19,4,Backlog,nan,nan, ,https://www.mdwfp.com/law-enforcement/shooting-facilities,nan,MDWFP - Shooting Facilities,nan,MDWFP-151
 20,6,Backlog,nan,nan, ,https://www.mdwfp.com/law-enforcement/photo-albums/turcotte-shooting-range/,nan,MDWFP - Turcotte Shooting Range,nan,MDWFP-151
-21,6,In Progress,Sarah P,nan, ,https://www.mdwfp.com/law-enforcement/photo-albums/mchenry-shooting-range/,https://test-mdwfp.pantheonsite.io/law-enforcement/mchenry-shooting-range-photo-gallery,MDWFP - McHenry Shooting Range,nan,MDWFP-151
+21,6,Blocked,Sarah P,nan, ,https://www.mdwfp.com/law-enforcement/photo-albums/mchenry-shooting-range/,https://test-mdwfp.pantheonsite.io/law-enforcement/mchenry-shooting-range-photo-gallery,MDWFP - McHenry Shooting Range,nan,MDWFP-151
 22,4,Backlog,nan,"This page provides thorough and comprehensive information but would benefit from re-ordering. Key details about visiting the facility should be surfaced first (ie location/address, fees, and hours) followed by other qualitative infornation including the video. ", ,https://www.mdwfp.com/law-enforcement/turcotte-shooting-facility,nan,MDWFP - Turcotte Shooting Facility,nan,MDWFP-151
 23,4,Backlog,nan,nan, ,https://www.mdwfp.com/law-enforcement/ms-scholastic-shooting-program.aspx,nan,MDWFP - MS Scholastic Shooting Program,nan,MDWFP-151
 24,5,Backlog,nan,"Good page, largely leave as-is with accordions for each Q+A.", ,https://www.mdwfp.com/law-enforcement/faq/,nan,MDWFP - FAQ,Frequently Asked Questions,MDWFP-151
-25,4,Backlog,nan,nan, ,https://www.mdwfp.com/parks-destinations/,nan,MDWFP - Parks & Destinations,nan,MDWFP-148
+25,4,In Progress,Jim,nan, ,https://www.mdwfp.com/parks-destinations/,nan,MDWFP - Parks & Destinations,nan,MDWFP-148
 26,5,Backlog,nan,Not a high-value page., ,https://www.mdwfp.com/parks-destinations/tentrr/,nan,MDWFP - Tentrr,Tentrr Camping Services,MDWFP-148
 27,7,Backlog,nan,Use /parks-destinations/tentrr as the URL rather than this longer one. Page content is quite good. Use a carousel for the imagery near the bottom. Consider cards or something more graphical for the list of parks where tentrr reservations can be used., ,https://www.mdwfp.com/parks-destinations/tentrr/tentrr/tentrr-at-ms-state-parks/,nan,MDWFP - Tentrr at MS State Parks,Tentrr at Mississippi State Parks,MDWFP-148
 28,5,Backlog,nan,"Good page, largely leave as-is with accordions for each Q+A.", ,https://www.mdwfp.com/parks-destinations/ms-state-parks-faq/,nan,MDWFP - MS State Parks FAQ,Mississippi State Parks Frequently Asked Questions,MDWFP-148
-29,5,Backlog,nan,"Good page. Suggest using accordions for the sections that are specific guidance for different trail users - equestrians, bicyclists, etc. Consider eliminating the signage imagery as it is cropped oddly and creates a lot of unnecessary height. ", ,https://www.mdwfp.com/parks-destinations/trails/,nan,MDWFP - Trails,nan,MDWFP-148
+29,5,In Progress,Jim,"Good page. Suggest using accordions for the sections that are specific guidance for different trail users - equestrians, bicyclists, etc. Consider eliminating the signage imagery as it is cropped oddly and creates a lot of unnecessary height. ", ,https://www.mdwfp.com/parks-destinations/trails/,nan,MDWFP - Trails,nan,MDWFP-148
 30,6,Backlog,nan,nan, ,https://www.mdwfp.com/parks-destinations/trails/search/,nan,MDWFP - Search,Search Trails,MDWFP-148
-31,5,Backlog,nan,Would definitely benefit from 1-2 sentence intro., ,https://www.mdwfp.com/parks-destinations/outdoor-recreational-grants/,nan,MDWFP - Outdoor Recreational Grants,nan,MDWFP-148
+31,5,In Progress,Jim,Would definitely benefit from 1-2 sentence intro., ,https://www.mdwfp.com/parks-destinations/outdoor-recreational-grants/,nan,MDWFP - Outdoor Recreational Grants,nan,MDWFP-148
 32,6,Backlog,nan,There are not that many FAQs; move these to line 35 for consolidation., ,https://www.mdwfp.com/parks-destinations/outdoor-recreational-grants/rtp-faqs/,nan,MDWFP - RTP FAQs,Recreational Trails Program Frequently Asked Questions,MDWFP-148
 33,6,Backlog,nan,There are not that many FAQs; move these to line 35 for consolidation., ,https://www.mdwfp.com/parks-destinations/outdoor-recreational-grants/lwcf-faqs/,nan,MDWFP - LWCF FAQs,Land and Water Conservation Fund Frequently Asked Questions,MDWFP-148
 34,5,Backlog,nan,Should not be its own page. Incorporate into Parks and Destinations landing page!, ,https://www.mdwfp.com/parks-destinations/additional-resources/,nan,MDWFP - Additional Resources,nan,MDWFP-148
 35,6,Backlog,nan,nan, ,https://www.mdwfp.com/parks-destinations/additional-resources/ms-state-parks-earn-national-rankings/,nan,MDWFP - MS State Parks Earn National Rankings,nan,MDWFP-148
 36,5,Backlog,nan,nan, ,https://www.mdwfp.com/parks-destinations/bulletin-board/,nan,MDWFP - Bulletin Board,nan,MDWFP-148
-37,5,Backlog,nan,nan, ,https://www.mdwfp.com/parks-destinations/trail-safety/,nan,MDWFP - Trail Safety,nan,MDWFP-148
+37,5,In Progress,Jim,nan, ,https://www.mdwfp.com/parks-destinations/trail-safety/,nan,MDWFP - Trail Safety,nan,MDWFP-148
 38,5,Backlog,nan,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/,nan,MDWFP - State Parks,nan,MDWFP-148
 39,6,Backlog,nan,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/lefleurs-bluff/,nan,MDWFP - LeFleur's Bluff,LeFleur's Bluff State Park,MDWFP-148
 40,6,Backlog,nan,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/holmes-county/,nan,MDWFP - Holmes County,Holmes County State Park,MDWFP-148
@@ -178,7 +178,7 @@
 176,7,Content Review,Sarah P,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/lake-lowndes/amenities/,https://test-mdwfp.pantheonsite.io/park/lake-lowndes-state-park,MDWFP - Amenities,nan,MDWFP-148
 177,7,Content Review,Sarah P,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/lake-lowndes/water-activities/,https://test-mdwfp.pantheonsite.io/park/lake-lowndes-state-park,MDWFP - Water Activities,nan,MDWFP-148
 178,7,Content Review,Sarah P,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/lake-lowndes/tent-camping/,https://test-mdwfp.pantheonsite.io/park/lake-lowndes-state-park,MDWFP - Tent Camping,nan,MDWFP-148
-179,7,In Progress,Sarah P,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/lake-lowndes/cabin-photos/,nan,MDWFP - Cabin Photos,nan,MDWFP-148
+179,7,Blocked,Sarah P,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/lake-lowndes/cabin-photos/,nan,MDWFP - Cabin Photos,nan,MDWFP-148
 180,6,Backlog,nan,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/clarkco/,nan,MDWFP - Clarkco,Clarkco State Park,MDWFP-148
 181,7,Backlog,nan,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/clarkco/tent-camping/,nan,MDWFP - Tent Camping,nan,MDWFP-148
 182,7,Backlog,nan,Significant consolidation and re-org of the park pages. See design guidance and content script., ,https://www.mdwfp.com/parks-destinations/state-parks/clarkco/developed-camping/,nan,MDWFP - Developed Camping,nan,MDWFP-148
@@ -201,7 +201,7 @@
 199,5,Backlog,nan,Pending Events discussion with MDWFP., ,https://www.mdwfp.com/parks-destinations/calendar/,nan,MDWFP - Calendar,nan,MDWFP-148
 200,6,Backlog,nan,Pending Events discussion with MDWFP., ,https://www.mdwfp.com/parks-destinations/calendar/hugh-white-spooky-tricks-and-treats-2023/,nan,MDWFP - Hugh White Spooky Tricks and Treats 2023,Hugh White State Park Spooky Tricks and Treats 2023,MDWFP-148
 201,6,Backlog,nan,Pending Events discussion with MDWFP., ,https://www.mdwfp.com/parks-destinations/calendar/hunters-special-2022-23/,nan,MDWFP - Hunter's Special 2022-23,nan,MDWFP-148
-202,5,Backlog,nan,Serves as a good intro but could benefit from more content; should be consolidated with 228 and 229 so that we have a single 'one-stop shop' for information about 22 and 23 park projects., ,https://www.mdwfp.com/parks-destinations/park-project/,nan,MDWFP - Park Project,Park Projects,MDWFP-148
+202,5,In Progress,Jim,Serves as a good intro but could benefit from more content; should be consolidated with 228 and 229 so that we have a single 'one-stop shop' for information about 22 and 23 park projects., ,https://www.mdwfp.com/parks-destinations/park-project/,nan,MDWFP - Park Project,Park Projects,MDWFP-148
 203,6,Backlog,nan,Consolidate with 227, ,https://www.mdwfp.com/parks-destinations/park-project/fy2023/,nan,MDWFP - FY2023,Fiscal Year 2023,MDWFP-148
 204,6,Backlog,nan,Consolidate with 227, ,https://www.mdwfp.com/parks-destinations/park-project/fy2022/,nan,MDWFP - FY2022,Fiscal Year 2022,MDWFP-148
 205,5,Backlog,nan,"Generally good page. Advise NOT starting with the video, but moving that down on the page. Intro content is already available on the page, which is good.  Use image cards or other graphic / visual interest for the CTAs to each golf course. ", ,https://www.mdwfp.com/parks-destinations/golf/,nan,MDWFP - Golf,Mississippi's State Golf Courses,MDWFP-148
@@ -212,14 +212,14 @@
 210,7,Backlog,nan,Consolidate with 234, ,https://www.mdwfp.com/parks-destinations/golf/the-dogwoods/the-dogwoods-course-rules/,nan,MDWFP - The Dogwoods Course Rules,The Dogwoods Golf Course Rules,MDWFP-148
 211,6,Backlog,nan,Consolidate with 231 - place images in a carousel., ,https://www.mdwfp.com/parks-destinations/photo-albums/quail-hollow-golf-course/,nan,MDWFP - Quail Hollow Golf Course,Photo Album,MDWFP-148
 212,6,Backlog,nan,Consolidate with 234 - place all images in a carousel., ,https://www.mdwfp.com/parks-destinations/photo-albums/the-dogwoods-golf-course/,nan,MDWFP - The Dogwoods Golf Course,Photo Album,MDWFP-148
-213,4,Backlog,nan,nan, ,https://www.mdwfp.com/license/,nan,MDWFP - License,nan,MDWFP-150
+213,4,In Progress,Jim,nan, ,https://www.mdwfp.com/license/,nan,MDWFP - License,nan,MDWFP-150
 214,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/fishing/,nan,MDWFP - Fishing,Fishing License,MDWFP-150
 215,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/apprentice-license/,nan,MDWFP - Apprentice License,nan,MDWFP-150
 216,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/youth-exempt/,nan,MDWFP - Youth Exempt,nan,MDWFP-150
 217,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/wma-check-in-app/,nan,MDWFP - WMA Check-In App,Wildlife Management Areas Check-In App,MDWFP-150
 218,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/boating/,nan,MDWFP - Boating,nan,MDWFP-150
 219,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/disabled-exempt-license/,nan,MDWFP - Disabled Exempt License,nan,MDWFP-150
-220,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/wildlife-permits/,nan,MDWFP - Wildlife Permits,nan,MDWFP-150
+220,5,In Progress,nan,Shell page needs to be migrated., ,https://www.mdwfp.com/license/wildlife-permits/,https://test-mdwfp.pantheonsite.io/licensing-permits,MDWFP - Wildlife Permits,nan,MDWFP-150
 221,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/senior-exempt/,nan,MDWFP - Senior Exempt,Resident Senior Exempt License,MDWFP-150
 222,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/hunting/,nan,MDWFP - Hunting,Hunting License,MDWFP-150
 223,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/wildlife-car-tags/,nan,MDWFP - Wildlife Car Tags,nan,MDWFP-150
@@ -230,7 +230,7 @@
 228,6,Backlog,nan,nan, ,https://www.mdwfp.com/license/mdwfp-mobile-apps/ms-state-parks-app/,nan,MDWFP - MS State Parks App,nan,MDWFP-150
 229,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/license-packages/,nan,MDWFP - License Packages,nan,MDWFP-150
 230,5,Backlog,nan,nan, ,https://www.mdwfp.com/license/faq/,nan,MDWFP - FAQ,Frequently Asked Questions,MDWFP-150
-231,4,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/,nan,MDWFP - Fishing & Boating,nan,MDWFP-147
+231,4,In Progress,Jim,Working on creating shell, ,https://www.mdwfp.com/fishing-boating/,nan,MDWFP - Fishing & Boating,nan,MDWFP-147
 232,5,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-waters-program/,nan,MDWFP - Public Waters Program,nan,MDWFP-147
 233,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-waters-program/reciprocal-agreements/,nan,MDWFP - Reciprocal Agreements,nan,MDWFP-147
 234,7,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-waters-program/reciprocal-agreements/tennessee-reciprocal-agreement/,nan,MDWFP - Tennessee Reciprocal Agreement,nan,MDWFP-147
@@ -245,13 +245,13 @@
 243,7,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-waters-program/scenic-streams-program/scenic-streams-program-faqs/,nan,MDWFP - Scenic Streams Program FAQ's,Scenic Streams Program Frequently Asked Questions,MDWFP-147
 244,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-waters-program/coastal-region/,nan,MDWFP - Coastal Region,nan,MDWFP-147
 245,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-waters-program/central-region/,nan,MDWFP - Central Region,nan,MDWFP-147
-246,5,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/,nan,MDWFP - State Park Lakes,Mississippi State Park Lakes,MDWFP-147
+246,5,Blocked,Sarah P,"Missing ""Select a lake"" dropdown", ,https://www.mdwfp.com/fishing-boating/state-park-lakes/,https://test-mdwfp.pantheonsite.io/fishing-boating/state-fishing-and-state-park-lakes,MDWFP - State Park Lakes,Mississippi State Park Lakes,MDWFP-147
 247,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/great-river-road/,nan,MDWFP - Great River Road,Great River Road State Park Lake,MDWFP-147
 248,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/tombigbee/,nan,MDWFP - Tombigbee,Tombigbee State Park Lake,MDWFP-147
 249,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/wall-doxey/,nan,MDWFP - Wall Doxey,Wall Doxey State Park Lake,MDWFP-147
 250,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/trace/,nan,MDWFP - Trace,Trace State Park Lake,MDWFP-147
 251,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/tishomingo/,nan,MDWFP - Tishomingo,Tishomingo State Park Lake,MDWFP-147
-252,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/lake-lowndes/,nan,MDWFP - Lake Lowndes,nan,MDWFP-147
+252,6,Blocked,Sarah P,Missing Fish Species, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/lake-lowndes/,https://test-mdwfp.pantheonsite.io/fishing-boating/lakes/lake-lowndes-state-park-lake,MDWFP - Lake Lowndes,nan,MDWFP-147
 253,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/golden-memorial/,nan,MDWFP - Golden Memorial,Golden Memorial State Park Lake,MDWFP-147
 254,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/percy-quin/,nan,MDWFP - Percy Quin,Percy Quin State Park Lake,MDWFP-147
 255,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/clarko/,nan,MDWFP - Clarko,Clarko State Park Lake,MDWFP-147
@@ -260,7 +260,7 @@
 258,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/paul-b-johnson/,nan,MDWFP - Paul B. Johnson,Paul B. Johnson State Park Lake,MDWFP-147
 259,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/legion/,nan,MDWFP - Legion,Legion State Park Lake Lake,MDWFP-147
 260,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/lincoln/,nan,MDWFP - Lincoln,Lincoln State Park Lake Lake,MDWFP-147
-261,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/lefleurs-bluff/,nan,MDWFP - LeFleur's Bluff,LeFleur's Bluff State Park Lake,MDWFP-147
+261,6,Blocked,Sarah P,Missing Fish Species, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/lefleurs-bluff/,https://test-mdwfp.pantheonsite.io/fishing-boating/lakes/lefleurs-bluff-state-park-lake,MDWFP - LeFleur's Bluff,LeFleur's Bluff State Park Lake,MDWFP-147
 262,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/starpier-fishing-bank-fishing-closedstar-natchez/,nan,MDWFP - *Pier Fishing & Bank Fishing Closed* - Natchez,*Pier Fishing & Bank Fishing Closed* - Natchez State Park Lake,MDWFP-147
 263,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/starstarcurrently-closed-for-renovationstarstar-holmes-county-odum/,nan,MDWFP - **Currently CLOSED for renovation** Holmes County - Odum,**Currently CLOSED for renovation** Holmes County - Odum State Park Lake,MDWFP-147
 264,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-park-lakes/starstarcurrently-closed-for-renovationstarstar-holmes-county-english/,nan,MDWFP - **Currently CLOSED for renovation** Holmes County - English,**Currently CLOSED for renovation** Holmes County - English State Park Lake,MDWFP-147
@@ -286,9 +286,9 @@
 284,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/community-assistance/coahoma-county-lake/,nan,MDWFP - Coahoma County Lake,nan,MDWFP-147
 285,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/community-assistance/brookhaven-fishing-pond/,nan,MDWFP - Brookhaven Fishing Pond,Brookhaven Fishing Pond - Brookhaven,MDWFP-147
 286,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/community-assistance/lees-summit/,nan,MDWFP - Lee's Summit,Lee's Summit Park Lake - Hernando,MDWFP-147
-287,5,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/fish-hatcheries/,nan,MDWFP - Fish Hatcheries,nan,MDWFP-147
+287,5,Blocked,Sarah P,nan, ,https://www.mdwfp.com/fishing-boating/fish-hatcheries/,https://test-mdwfp.pantheonsite.io/fishing-boating/fish-hatcheries,MDWFP - Fish Hatcheries,nan,MDWFP-147
 288,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/fish-hatcheries/turcotte/,nan,MDWFP - Turcotte,Turcotte Hatchery,MDWFP-147
-289,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/fish-hatcheries/north-mississippi/,nan,MDWFP - North Mississippi,Bob Tyler Fish Hatchery,MDWFP-147
+289,6,Blocked,Sarah P,nan, ,https://www.mdwfp.com/fishing-boating/fish-hatcheries/north-mississippi/,https://test-mdwfp.pantheonsite.io/fishing-boating/fish-hatcheries/bob-tyler-fish-hatchery,MDWFP - North Mississippi,Bob Tyler Fish Hatchery,MDWFP-147
 290,5,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/education-outreach/,nan,MDWFP - Education & Outreach,Fishing Education & Outreach,MDWFP-147
 291,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/education-outreach/fishing-rodeo/,nan,MDWFP - Fishing Rodeo,Youth Fishing Rodeos,MDWFP-147
 292,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/education-outreach/record-fish-applications/,nan,MDWFP - Record Fish Applications,nan,MDWFP-147
@@ -371,14 +371,14 @@
 369,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-water-body-regulations/percy-quin-state-park/,nan,MDWFP - Percy Quin State Park,nan,MDWFP-147
 370,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-water-body-regulations/tombigbee-state-park-lake/,nan,MDWFP - Tombigbee State Park Lake,nan,MDWFP-147
 371,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/public-water-body-regulations/olive-branch-city-park-ponds/,nan,MDWFP - Olive Branch City Park Ponds,nan,MDWFP-147
-372,5,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/,nan,MDWFP - State Fishing Lakes,nan,MDWFP-147
+372,5,Blocked,Sarah P,"Missing ""Select a lake"" dropdown", ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/,https://test-mdwfp.pantheonsite.io/fishing-boating/state-fishing-and-state-park-lakes,MDWFP - State Fishing Lakes,nan,MDWFP-147
 373,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-claude-bennett/,nan,MDWFP - Lake Claude Bennett,nan,MDWFP-147
 374,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-mary-crawford/,nan,MDWFP - Lake Mary Crawford,nan,MDWFP-147
 375,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-mike-conner/,nan,MDWFP - Lake Mike Conner,nan,MDWFP-147
 376,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-lamar-bruce/,nan,MDWFP - Lake Lamar Bruce,nan,MDWFP-147
 377,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-jeff-davis/,nan,MDWFP - Lake Jeff Davis,nan,MDWFP-147
 378,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/calling-panther-lake/,nan,MDWFP - Calling Panther Lake,nan,MDWFP-147
-379,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/simpson-county-lake/,nan,MDWFP - Simpson County Lake,nan,MDWFP-147
+379,6,Blocked,Sarah P,Missing Fish Species and Record Fish, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/simpson-county-lake/,https://test-mdwfp.pantheonsite.io/fishing-boating/lakes/simpson-county-lake,MDWFP - Simpson County Lake,nan,MDWFP-147
 380,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-tom-bailey/,nan,MDWFP - Lake Tom Bailey,nan,MDWFP-147
 381,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/tippah-county-lake/,nan,MDWFP - Tippah County Lake,nan,MDWFP-147
 382,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/neshoba-county-lake/,nan,MDWFP - Neshoba County Lake,nan,MDWFP-147
@@ -388,7 +388,7 @@
 386,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-columbia/,nan,MDWFP - Lake Columbia,nan,MDWFP-147
 387,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/prentiss-walker-lake/,nan,MDWFP - Lake Columbia,nan,MDWFP-147
 388,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/holmes-county-state-park-lake-starstarcurrently-closed-for-renovationstarstar/,nan,MDWFP - Holmes County State Park Lake **Currently CLOSED for renovation**,nan,MDWFP-147
-389,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/elvis-presley-lake-starstarcurrently-closed-for-renovationstarstar/,nan,MDWFP - Elvis Presley Lake **Currently CLOSED for renovation**,nan,MDWFP-147
+389,6,Blocked,Sarah P,Missing Fish Species and Record Fish, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/elvis-presley-lake-starstarcurrently-closed-for-renovationstarstar/,https://test-mdwfp.pantheonsite.io/fishing-boating/lakes/elvis-presley-lake,MDWFP - Elvis Presley Lake **Currently CLOSED for renovation**,nan,MDWFP-147
 390,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-bogue-homa-starboat-ramp-is-now-open/,nan,MDWFP - Lake Bogue Homa *Boat Ramp is now open!,Lake Bogue Homa,MDWFP-147
 391,6,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/state-fishing-lakes/lake-monroe-starstarcurrently-closed-due-to-storm-damagestarstar/,nan,MDWFP - Lake Monroe **Currently CLOSED due to Storm Damage**,Lake Monroe **Open to Fishing**,MDWFP-147
 392,5,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating/fishing-reports-mobile/,nan,MDWFP - Fishing Reports Mobile,nan,MDWFP-147
@@ -525,45 +525,45 @@
 523,5,Backlog,nan,nan, ,https://www.mdwfp.com/administration/senate-house-bills/,nan,MDWFP - Senate & House Bills,Senate and House Bills,MDWFP-152
 524,5,Content Review,Sarah P,nan, ,https://www.mdwfp.com/administration/employment-opportunities/,https://test-mdwfp.pantheonsite.io/employment-opportunities,MDWFP - Employment Opportunities,nan,MDWFP-152
 525,5,Backlog,nan,nan, ,https://www.mdwfp.com/administration/rules/,nan,MDWFP - Rules,nan,MDWFP-152
-526,4,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/,nan,MDWFP - Wildlife & Hunting,nan,MDWFP-146
+526,4,In Progress,Jim,Working on creating shell of page for this content, ,https://www.mdwfp.com/wildlife-hunting/,nan,MDWFP - Wildlife & Hunting,nan,MDWFP-146
 527,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/furbearer-trapping/,nan,MDWFP - Furbearer & Trapping,nan,MDWFP-146
 528,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/furbearer-trapping/water-set-traps/,nan,MDWFP - Water-set Traps,nan,MDWFP-146
 529,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/furbearer-trapping/trapping-regulations.aspx,nan,MDWFP - Trapping Regulations,nan,MDWFP-146
 530,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/furbearer-trapping/snare-traps/,nan,MDWFP - Snare Traps,nan,MDWFP-146
 531,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/furbearer-trapping/trap-types/,nan,MDWFP - Trap Types,nan,MDWFP-146
 532,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/furbearer-trapping/land-set-traps/,nan,MDWFP - Land-set traps,Land-Set traps,MDWFP-146
-533,5,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/,nan,MDWFP - Falconry Program,nan,MDWFP-146
-534,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/faqs/,nan,MDWFP - FAQ's,Frequently Asked Questions,MDWFP-146
+533,5,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/wildlife-species-program/falconry-program,MDWFP - Falconry Program,nan,MDWFP-146
+534,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/faqs/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/wildlife-species-program/falconry-program/falconry-faqs,MDWFP - FAQ's,Frequently Asked Questions,MDWFP-146
 535,6,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/falconry-program/falconry-literature/,nan,MDWFP - Falconry Literature,nan,MDWFP-146
-536,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/general-falconry-information/,nan,MDWFP - General Falconry Information,nan,MDWFP-146
-537,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/become-an-apprentice/,nan,MDWFP - Become An Apprentice,nan,MDWFP-146
-538,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/,nan,MDWFP - Deer Program,nan,MDWFP-146
-539,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/enclosures/,nan,MDWFP - Enclosures,nan,MDWFP-146
-540,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/supplemental-feeding-frequently-asked-questions/,nan,MDWFP - Supplemental Feeding Frequently Asked Questions,nan,MDWFP-146
-541,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-management-assistance-program-dmap/,nan,MDWFP - Deer Management Assistance Program - DMAP,Deer Management Assistance Program (DMAP),MDWFP-146
-542,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-management-assistance-program-dmap/dmap-frequently-asked-questions/,nan,MDWFP - DMAP Frequently Asked Questions,Deer Management Assistance Program - Frequently Asked Questions,MDWFP-146
-543,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-management-assistance-program-dmap/dmaps-success-in-mississippi/,nan,MDWFP - DMAP's Success in Mississippi,Deer Management Assistance Program's Success in Mississippi,MDWFP-146
-544,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-program-annual-reports/,nan,MDWFP - Deer Program Annual Reports,nan,MDWFP-146
-545,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/magnolia-records-program/,nan,MDWFP - Magnolia Records Program,nan,MDWFP-146
-546,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/magnolia-records-program/about/,nan,MDWFP - About,Magnolia Records Program - About,MDWFP-146
-547,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/camera-survey-information/,nan,MDWFP - Camera Survey Information,Trail Camera Survey Information and Permit Application,MDWFP-146
-548,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-breeding-date-map/,nan,MDWFP - Deer Breeding Date Map,Mississippi White-tailed Deer Simulated Mean Conception Date Map,MDWFP-146
-549,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/,nan,MDWFP - Diseases and Abnormalities,nan,MDWFP-146
-550,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/cutaneous-fibromas.aspx,nan,MDWFP - Cutaneous Fibromas,Cutaneous Fibromas: A Closer Look (Warts & All),MDWFP-146
-551,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/hemorrhagic-disease-the-white-tailed-deer/,nan,MDWFP - Hemorrhagic Disease & the White-tailed Deer,nan,MDWFP-146
-552,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/nasalbots.aspx,nan,MDWFP - Nasalbots,Nasal Bots in Deer: Harmless but Irritating,MDWFP-146
-553,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/,nan,MDWFP - Food Plots,nan,MDWFP-146
-554,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/exclosure-cages-in-food-plots/,nan,MDWFP - Exclosure Cages in Food Plots,nan,MDWFP-146
-555,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/warm-season-food-plots/,nan,MDWFP - Warm Season Food Plots,nan,MDWFP-146
-556,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/cool-season-food-plots/,nan,MDWFP - Cool Season Food Plots,nan,MDWFP-146
-557,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/magnolia-records-program.aspx,nan,MDWFP - Magnolia Records Program,nan,MDWFP-146
-558,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/enclosures.aspx,nan,MDWFP - Enclosures,nan,MDWFP-146
-559,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/nuisance-wildlife/,nan,MDWFP - Nuisance Wildlife,nan,MDWFP-146
-560,5,In Progress,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/,nan,MDWFP - Alligator Program,nan,MDWFP-146
-561,6,In Progress,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/public-water-alligator-hunting-info/,nan,MDWFP - Public Water Alligator Hunting Info,Public Water Alligator Hunting Information,MDWFP-146
-562,6,In Progress,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/the-recovery-of-the-american-alligator-in-mississippi/,nan,MDWFP - The Recovery of the American Alligator in Mississippi,nan,MDWFP-146
-563,6,In Progress,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/nuisance-alligators/,nan,MDWFP - Nuisance Alligators,nan,MDWFP-146
-564,6,In Progress,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/private-lands-hunt-info/,nan,MDWFP - Private Lands Hunt Info,Private Lands Alligator Hunting Information,MDWFP-146
+536,6,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/falconry-program/general-falconry-information/,nan,MDWFP - General Falconry Information,nan,MDWFP-146
+537,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/falconry-program/become-an-apprentice/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/wildlife-species-program/falconry-program/falconry-becoming-apprentice,MDWFP - Become An Apprentice,nan,MDWFP-146
+538,5,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program,MDWFP - Deer Program,nan,MDWFP-146
+539,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/enclosures/,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program/deer-enclosures,MDWFP - Enclosures,Deer Enclosures,MDWFP-146
+540,6,Content Review,Braden,Add to food page,Merge ⬇️,https://www.mdwfp.com/wildlife-hunting/deer-program/supplemental-feeding-frequently-asked-questions/,https://test-mdwfp.pantheonsite.io/food-plots,MDWFP - Supplemental Feeding Frequently Asked Questions,nan,MDWFP-146
+541,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-management-assistance-program-dmap/,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program/deer-management-assistance-program,MDWFP - Deer Management Assistance Program - DMAP,Deer Management Assistance Program (DMAP),MDWFP-146
+542,7,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-management-assistance-program-dmap/dmap-frequently-asked-questions/,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program/deer-management-assistance-program,MDWFP - DMAP Frequently Asked Questions,Deer Management Assistance Program - Frequently Asked Questions,MDWFP-146
+543,7,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-management-assistance-program-dmap/dmaps-success-in-mississippi/,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program/deer-management-assistance-program,MDWFP - DMAP's Success in Mississippi,Deer Management Assistance Program's Success in Mississippi,MDWFP-146
+544,6,Content Review,Braden,Try adding these to the main Deer Program page, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-program-annual-reports/,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program,MDWFP - Deer Program Annual Reports,nan,MDWFP-146
+545,6,Content Review,Braden,Check if this is intended to be migrated, ,https://www.mdwfp.com/wildlife-hunting/deer-program/magnolia-records-program/,https://test-mdwfp.pantheonsite.io/magnolia-records-program,MDWFP - Magnolia Records Program,nan,MDWFP-146
+546,7,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/magnolia-records-program/about/,https://test-mdwfp.pantheonsite.io/magnolia-records-program,MDWFP - About,Magnolia Records Program - About,MDWFP-146
+547,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/camera-survey-information/,https://test-mdwfp.pantheonsite.io/trail-camera-survey-information-and-permit-application,MDWFP - Camera Survey Information,Trail Camera Survey Information and Permit Application,MDWFP-146
+548,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/deer-breeding-date-map/,https://test-mdwfp.pantheonsite.io/mississippi-white-tailed-deer-simulated-mean-conception-date-map,MDWFP - Deer Breeding Date Map,Mississippi White-tailed Deer Simulated Mean Conception Date Map,MDWFP-146
+549,6,Content Review,Braden,"Could use imaging, old site has tiny images", ,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/,https://test-mdwfp.pantheonsite.io/deer-diseases-abnormalities,MDWFP - Diseases and Abnormalities,nan,MDWFP-146
+550,6,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/cutaneous-fibromas.aspx,https://test-mdwfp.pantheonsite.io/deer-diseases-abnormalities,MDWFP - Cutaneous Fibromas,Cutaneous Fibromas: A Closer Look (Warts & All),MDWFP-146
+551,7,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/hemorrhagic-disease-the-white-tailed-deer/,https://test-mdwfp.pantheonsite.io/deer-diseases-abnormalities,MDWFP - Hemorrhagic Disease & the White-tailed Deer,nan,MDWFP-146
+552,6,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/diseases-and-abnormalities/nasalbots.aspx,https://test-mdwfp.pantheonsite.io/deer-diseases-abnormalities,MDWFP - Nasalbots,Nasal Bots in Deer: Harmless but Irritating,MDWFP-146
+553,6,Content Review,Braden,Weird video duplication glitch, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/,https://test-mdwfp.pantheonsite.io/food-plots,MDWFP - Food Plots,nan,MDWFP-146
+554,7,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/exclosure-cages-in-food-plots/,https://test-mdwfp.pantheonsite.io/food-plots,MDWFP - Exclosure Cages in Food Plots,nan,MDWFP-146
+555,7,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/warm-season-food-plots/,https://test-mdwfp.pantheonsite.io/warm-season-food-plots,MDWFP - Warm Season Food Plots,nan,MDWFP-146
+556,7,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/food-plots/cool-season-food-plots/,https://test-mdwfp.pantheonsite.io/cool-season-food-plots,MDWFP - Cool Season Food Plots,nan,MDWFP-146
+557,5,Content Review,Braden,nan,Merge ⬆️,https://www.mdwfp.com/wildlife-hunting/deer-program/magnolia-records-program.aspx,https://test-mdwfp.pantheonsite.io/magnolia-records-program,MDWFP - Magnolia Records Program,nan,MDWFP-146
+558,5,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program/enclosures.aspx,https://test-mdwfp.pantheonsite.io/wildlife-species-program/deer-program/deer-enclosures,MDWFP - Enclosures,nan,MDWFP-146
+559,5,Content Review,Sarah P,nan, ,https://www.mdwfp.com/wildlife-hunting/nuisance-wildlife/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/nuisance-wildlife,MDWFP - Nuisance Wildlife,nan,MDWFP-146
+560,5,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/wildlife-species-program/alligator-program,MDWFP - Alligator Program,nan,MDWFP-146
+561,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/public-water-alligator-hunting-info/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/public-waters-alligator-hunting-info,MDWFP - Public Water Alligator Hunting Info,Public Water Alligator Hunting Information,MDWFP-146
+562,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/the-recovery-of-the-american-alligator-in-mississippi/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/wildlife-species-program/alligator-program/recovery-american-alligator-mississippi,MDWFP - The Recovery of the American Alligator in Mississippi,nan,MDWFP-146
+563,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/nuisance-alligators/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/nuisance-alligators,MDWFP - Nuisance Alligators,nan,MDWFP-146
+564,6,Content Review,Braden,nan, ,https://www.mdwfp.com/wildlife-hunting/alligator-program/private-lands-hunt-info/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/private-lands-alligator-hunting-info,MDWFP - Private Lands Hunt Info,Private Lands Alligator Hunting Information,MDWFP-146
 565,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/gis-program/,nan,MDWFP - GIS Program,Geographic Information Systems (GIS) Program,MDWFP-146
 566,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/gis-program/wma-teal-hunts/,nan,MDWFP - WMA Teal Hunts,WMA Teal Hunts,MDWFP-146
 567,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/gis-program/deer/,nan,MDWFP - Deer,Deer Mapping,MDWFP-146
@@ -644,7 +644,7 @@
 642,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/rabbit-program/rabbit-damage-management.aspx,nan,MDWFP - Rabbit Damage Management,Preventing and Controlling Damage Caused by Rabbits and Squirrels,MDWFP-146
 643,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/rabbit-program/rabbit-management-information.aspx,nan,MDWFP - Rabbit Management Information,Rabbit Management Information Resources,MDWFP-146
 644,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/rabbit-program/hunting-season/,nan,MDWFP - Hunting Season,Rabbit Hunting Season,MDWFP-146
-645,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/,nan,MDWFP - WMA,Wildlife Management Areas (WMAs),MDWFP-146
+645,5,Blocked,Sarah P,"Missing ""Find a WMA"" dropdown", ,https://www.mdwfp.com/wildlife-hunting/wma/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/wildlife-management-areas,MDWFP - WMA,Wildlife Management Areas (WMAs),MDWFP-146
 646,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/mississippi-wildlife-management-areas-something-for-everyone/,nan,MDWFP - Mississippi Wildlife Management Areas - Something for Everyone,MDWFP - Mississippi Wildlife Management Areas - Something for Everyone?,MDWFP-146
 647,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/region/north-delta/,nan,MDWFP - North Delta,Wildlife Management Area - North Delta,MDWFP-146
 648,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/region/southwest/,nan,MDWFP - Southwest,Wildlife Management Area - Southwest,MDWFP-146
@@ -670,7 +670,7 @@
 668,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/dove-fields/okeefe/,nan,MDWFP - O'Keefe,O'Keefe Wildlife Management Area Dove Field,MDWFP-146
 669,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/annual-application-periods-for-wma-permitted-hunts/,nan,MDWFP - Annual Application Periods for WMA Permitted Hunts,Wildlife Management Area Permitted Hunts Annual Application Periods,MDWFP-146
 670,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wma/volunteer-program/,nan,MDWFP - Volunteer Program,Wildlife Management Area Volunteer Program,MDWFP-146
-671,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/chronic-wasting-disease/,nan,MDWFP - Chronic Wasting Disease,nan,MDWFP-146
+671,5,Content Review,Sarah P,nan, ,https://www.mdwfp.com/wildlife-hunting/chronic-wasting-disease/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/chronic-wasting-disease,MDWFP - Chronic Wasting Disease,nan,MDWFP-146
 672,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/chronic-wasting-disease/what-is-cwd/,nan,MDWFP - What is CWD?,What is Chronic Wasting Disease?,MDWFP-146
 673,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/chronic-wasting-disease/additional-information/,nan,MDWFP - Additional Information,nan,MDWFP-146
 674,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/chronic-wasting-disease/carcass-transportation/,nan,MDWFP - Carcass Transportation,Deer Carcass Transportation Ban,MDWFP-146
@@ -702,7 +702,7 @@
 700,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/game-check/additional-information/,nan,MDWFP - Additional Information,nan,MDWFP-146
 701,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/game-check/report-your-harvest/,nan,MDWFP - Report Your Harvest,Report Your Harvest,MDWFP-146
 702,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/game-check/game-check-instructions/,nan,MDWFP - Game Check Instructions,How to Report Your Havest,MDWFP-146
-703,5,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wildlife-research/,nan,MDWFP - Wildlife Research,Wildlife Research Program,MDWFP-146
+703,5,Content Review,Sarah P,Blank page needs to be migrated, ,https://www.mdwfp.com/wildlife-hunting/wildlife-research/,https://test-mdwfp.pantheonsite.io/wildlife-research,MDWFP - Wildlife Research,Wildlife Research Program,MDWFP-146
 704,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wildlife-research/wildlife-habitat-research/,nan,MDWFP - Wildlife Habitat Research,nan,MDWFP-146
 705,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wildlife-research/wildlife-habitat-research/intensive-pine-plantation-management-effects-on-wintering-and-breeding-avian-communities-and-small-mammal-communities-of-the-lower-coastal-plain/,nan,MDWFP - Intensive Pine Plantation Management Effects on Wintering and Breeding Avian Communities and Small Mammal Communities of the Lower Coastal Plain,nan,MDWFP-146
 706,7,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/wildlife-research/wildlife-habitat-research/impacts-of-white-tailed-deer-exclusion-on-forest-community-structure-and-biodiversity-in-mississippi/,nan,MDWFP - Impacts of White-tailed Deer Exclusion on Forest Community Structure and Biodiversity in Mississippi,nan,MDWFP-146
@@ -768,22 +768,22 @@
 766,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/units/buck-bayou-hunt-unit/,nan,MDWFP - Buck Bayou Hunt Unit,Phil Bryant Wildlife Management Area - Buck Bayou Unit,MDWFP-146
 767,6,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/units/backwoods-hunt-unit/,nan,MDWFP - Backwoods Hunt Unit,Phil Bryant Wildlife Management Area - Backwoods Unit,MDWFP-146
 768,4,Backlog,nan,nan, ,https://www.mdwfp.com/wildlife-hunting/deer-program,nan,MDWFP - Deer Program,nan,MDWFP-146
-769,4,Backlog,nan,nan, ,https://www.mdwfp.com/museum/,nan,MDWFP - Museum,MDWFP Museum of Natural Science,MDWFP-149
+769,4,In Progress,Jim,nan, ,https://www.mdwfp.com/museum/,nan,MDWFP - Museum,MDWFP Museum of Natural Science,MDWFP-149
 770,5,Backlog,nan,nan, ,https://www.mdwfp.com/museum/special-exhibits/,nan,MDWFP - Special Exhibits,nan,MDWFP-149
 771,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/special-exhibits/permian-monsters-exhibit/,nan,MDWFP - Permian Monsters Exhibit,Permian Monsters: Life Before the Dinosaurs,MDWFP-149
-772,5,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/,nan,MDWFP - See Visit,Visit Us,MDWFP-149
-773,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/,nan,MDWFP - LeFleur's Bluff Playground,LeFleur's Bluff Education & Tourism Complex (LBC),MDWFP-149
-774,7,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/the-den/,nan,MDWFP - The Den,Rental Area in the LeFleur's Bluff Complex,MDWFP-149
-775,7,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/spotters-adventure-club/,nan,MDWFP - Spotter's Adventure Club,About Spotter's Adventure Club,MDWFP-149
-776,7,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/spotters-adventure-trail/,nan,MDWFP - Spotter's Adventure Trail,nan,MDWFP-149
-777,7,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/spotters-snack-shack/,nan,MDWFP - Spotter's Snack Shack,nan,MDWFP-149
+772,5,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/,https://test-mdwfp.pantheonsite.io/see-visit,MDWFP - See Visit,Visit Us,MDWFP-149
+773,6,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/,https://test-mdwfp.pantheonsite.io/museum/see-visit/lefleurs-bluff-playground,MDWFP - LeFleur's Bluff Playground,LeFleur's Bluff Education & Tourism Complex (LBC),MDWFP-149
+774,7,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/the-den/,https://test-mdwfp.pantheonsite.io/museum/see-visit/lefleurs-bluff-playground,MDWFP - The Den,Rental Area in the LeFleur's Bluff Complex,MDWFP-149
+775,7,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/spotters-adventure-club/,https://test-mdwfp.pantheonsite.io/museum/see-visit/lefleurs-bluff-playground,MDWFP - Spotter's Adventure Club,About Spotter's Adventure Club,MDWFP-149
+776,7,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/spotters-adventure-trail/,https://test-mdwfp.pantheonsite.io/museum/see-visit/lefleurs-bluff-playground,MDWFP - Spotter's Adventure Trail,nan,MDWFP-149
+777,7,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/lefleurs-bluff-playground/spotters-snack-shack/,https://test-mdwfp.pantheonsite.io/museum/see-visit/lefleurs-bluff-playground,MDWFP - Spotter's Snack Shack,nan,MDWFP-149
 778,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/about-us/,nan,MDWFP - About Us,nan,MDWFP-149
 779,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/volunteer/,nan,MDWFP - Volunteer,Volunteer Information,MDWFP-149
-780,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/admission-directions/,nan,MDWFP - Admission / Directions,Admission and Directions,MDWFP-149
-781,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/dragonfly-shop/,nan,MDWFP - Dragonfly Shop,Dragonfly Shoppe,MDWFP-149
+780,6,Backlog,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/admission-directions/,nan,MDWFP - Admission / Directions,Admission and Directions,MDWFP-149
+781,6,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/dragonfly-shop/,nan,MDWFP - Dragonfly Shop,Dragonfly Shoppe,MDWFP-149
 782,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/ongoing-events/,nan,MDWFP - Ongoing Events,nan,MDWFP-149
-783,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/dinosaur-trail/,nan,MDWFP - Dinosaur Trail,Explore the Museum's New Dinosaur Trail,MDWFP-149
-784,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/lefleur-museum-district/,nan,MDWFP - LeFleur Museum District,About the LeFleur Museum District (LMD),MDWFP-149
+783,6,In Progress,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/dinosaur-trail/,nan,MDWFP - Dinosaur Trail,Explore the Museum's New Dinosaur Trail,MDWFP-149
+784,6,Backlog,Braden,nan, ,https://www.mdwfp.com/museum/see-visit/lefleur-museum-district/,nan,MDWFP - LeFleur Museum District,About the LeFleur Museum District (LMD),MDWFP-149
 785,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/history/,nan,MDWFP - History,Museum History,MDWFP-149
 786,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/the-latest/,nan,MDWFP - The Latest,nan,MDWFP-149
 787,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/birthday-parties/,nan,MDWFP - Birthday Parties,Schedule a Birthday Party at the Museum,MDWFP-149
@@ -794,7 +794,7 @@
 792,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/media-news/,nan,MDWFP - Media / News,nan,MDWFP-149
 793,7,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/media-news/press-information/,nan,MDWFP - Press Information,nan,MDWFP-149
 794,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/see-visit/for-families/,nan,MDWFP - For Families,nan,MDWFP-149
-795,5,Backlog,nan,nan, ,https://www.mdwfp.com/museum/calendar/,nan,MDWFP - Calendar,nan,MDWFP-149
+795,5,In Progress,Sarah P,nan, ,https://www.mdwfp.com/museum/calendar/,nan,MDWFP - Calendar,nan,MDWFP-149
 796,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/calendar/world-snake-day-2023/,nan,MDWFP - WORLD SNAKE DAY 2023,World Snake Day!,MDWFP-149
 797,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/calendar/water-journey-festival-2023/,nan,MDWFP - Water Journey Festival 2023,nan,MDWFP-149
 798,6,Backlog,nan,nan, ,https://www.mdwfp.com/museum/calendar/summer-teacher-workshops-2023/,nan,MDWFP - Summer Teacher Workshops 2023,July 17-21 Teacher Workshops,MDWFP-149
@@ -879,7 +879,7 @@
 877,5,Backlog,nan,nan, ,https://www.mdwfp.com/aims/2022-all-stars/,nan,MDWFP - 2022 All Stars,nan,nan
 878,5,Backlog,nan,nan, ,https://www.mdwfp.com/aims/aims-all-state-score/,nan,MDWFP - AIMS All State Score,nan,nan
 879,4,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/,nan,MDWFP - NMFH,Bob Tyler Fish Hatchery,nan
-880,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/visitor-centeradmission/,nan,MDWFP - Visitor Center/Admission,nan,nan
+880,5,Blocked,Sarah P,nan, ,https://www.mdwfp.com/nmfh/visitor-centeradmission/,https://test-mdwfp.pantheonsite.io/fishing-boating/visitor-education-center,MDWFP - Visitor Center/Admission,nan,nan
 881,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/visitor-centeradmission/enid-lake/,nan,MDWFP - Enid Lake,Open question about lake naming,nan
 882,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/visitor-centeradmission/comments/,nan,MDWFP - Comments,See what people are saying about the North Mississippi Fish Hatchery Visitor Education Center,nan
 883,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/native-habitat/,nan,MDWFP - Native Habitat,nan,nan
@@ -933,9 +933,9 @@
 931,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/teachers-tacklebox/category-iv/,nan,MDWFP - Category IV,Category IV Winners,nan
 932,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/teachers-tacklebox/category-ii/,nan,MDWFP - Category II,Category II Winners,nan
 933,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/facility-rental/,nan,MDWFP - Facility Rental,nan,nan
-934,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/2023-events-schedule/,nan,MDWFP - 2023 Events Schedule,nan,nan
+934,5,Content Review,Sarah P,nan, ,https://www.mdwfp.com/nmfh/2023-events-schedule/,example: https://test-mdwfp.pantheonsite.io/events/spring-break-programs-mystery-week-mysterious-mammals,MDWFP - 2023 Events Schedule,nan,nan
 935,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/dive-deeper/,nan,MDWFP - Dive Deeper,nan,nan
-936,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/fish-hatchery/,nan,MDWFP - Fish Hatchery,nan,nan
+936,5,Blocked,Sarah P,nan, ,https://www.mdwfp.com/nmfh/fish-hatchery/,https://test-mdwfp.pantheonsite.io/fishing-boating/fish-hatcheries/bob-tyler-fish-hatchery,MDWFP - Fish Hatchery,nan,nan
 937,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/fish-hatchery/baits-for-individual-fish/,nan,MDWFP - Baits For Individual Fish,nan,nan
 938,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/calendar/,nan,MDWFP - Calendar,nan,nan
 939,5,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/online-flipgrid-lesson-plans/,nan,MDWFP - Online Flipgrid Lesson Plans,nan,nan
@@ -952,7 +952,7 @@
 950,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/natural-habitat/,nan,MDWFP - Natural Habitat,nan,nan
 951,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/aquarium/,nan,MDWFP - Aquarium,nan,nan
 952,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/teacher-workshops/,nan,MDWFP - Teacher Workshops,nan,nan
-953,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/hatchery/,nan,MDWFP - Hatchery,nan,nan
+953,6,Backlog,Open,nan, ,https://www.mdwfp.com/nmfh/photo-albums/hatchery/,nan,MDWFP - Hatchery,nan,nan
 954,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/halloween-at-the-hatchery/,nan,MDWFP - Halloween at the Hatchery,nan,nan
 955,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/temporary-exhibits/,nan,MDWFP - Temporary Exhibits,nan,nan
 956,6,Backlog,nan,nan, ,https://www.mdwfp.com/nmfh/photo-albums/aquarium-id/,nan,MDWFP - Aquarium ID,Aquarium Identification,nan
@@ -1020,8 +1020,8 @@
 1018,5,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/hunter-angler-surveys/,nan,MDWFP - Hunter & Angler Surveys,nan,nan
 1019,5,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/youth-programs/,nan,MDWFP - Youth Programs,nan,nan
 1020,6,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/youth-programs/youth-participation-initiative-grants/,nan,MDWFP - Youth Participation Initiative Grants,Youth Participation Initiative Program,nan
-1021,5,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/hunter-education/,nan,MDWFP - Hunter Education,nan,nan
-1022,6,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/hunter-education/online-hunters-ed/,nan,MDWFP - Online Hunters Ed,Mississippi's Hunter Education Online Course,nan
+1021,5,Content Review,Sarah P,Empty page - needs to be migrated, ,https://www.mdwfp.com/education-outreach/hunter-education/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/hunter-education-and-safety,MDWFP - Hunter Education,nan,nan
+1022,6,Content Review,Sarah P,nan, ,https://www.mdwfp.com/education-outreach/hunter-education/online-hunters-ed/,https://test-mdwfp.pantheonsite.io/wildlife-hunting/hunter-education-and-safety,MDWFP - Online Hunters Ed,Mississippi's Hunter Education Online Course,nan
 1023,6,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/hunter-education/become-a-volunteer-hunter-education-instructor/,nan,MDWFP - Become a Volunteer Hunter Education Instructor,nan,nan
 1024,5,Backlog,nan,nan, ,https://www.mdwfp.com/education-outreach/faq/,nan,MDWFP - FAQ,Frequently Asked Questions,nan
 1025,4,Backlog,nan,nan, ,https://www.mdwfp.com/ms-outdoors/,nan,MDWFP - MS Outdoors,Mississippi Outdoors,nan
@@ -1038,8 +1038,8 @@
 1036,5,Backlog,nan,nan, ,https://www.mdwfp.com/about-us/executive-director/,nan,MDWFP - Executive Director,nan,MDWFP-152
 1037,4,Backlog,nan,nan, ,https://www.mdwfp.com/faq/,nan,MDWFP - FAQ,Frequently Asked Questions,nan
 1038,3,Content Review,Sarah P,nan, ,https://www.mdwfp.com/about-us,https://test-mdwfp.pantheonsite.io/about-mdwfp,MDWFP - About Us,About MDWFP,MDWFP-152
-1039,3,Backlog,nan,nan, ,https://www.mdwfp.com/law-enforcement,nan,MDWFP - Law Enforcement,nan,MDWFP-151
+1039,3,In Progress,Jim,nan, ,https://www.mdwfp.com/law-enforcement,nan,MDWFP - Law Enforcement,nan,MDWFP-151
 1040,3,Backlog,nan,nan, ,https://www.mdwfp.com/parks-destinations,nan,MDWFP - Parks & Destinations,nan,MDWFP-148
-1041,3,Backlog,nan,nan, ,https://www.mdwfp.com/fishing-boating,nan,MDWFP - Fishing & Boating,nan,MDWFP-147
+1041,3,In Progress,Jim,nan, ,https://www.mdwfp.com/fishing-boating,nan,MDWFP - Fishing & Boating,nan,MDWFP-147
 1042,4,Backlog,nan,nan, ,https://www.mdwfp.com/calendar/,nan,MDWFP - Calendar,Upcoming Events,nan
 1043,3,Backlog,nan,nan, ,https://www.mdwfp.com/umbraco,nan,Umbraco,nan,nan
