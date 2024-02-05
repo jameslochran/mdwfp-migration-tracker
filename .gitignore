@@ -1,3 +1,9 @@
 .streamlit/secrets.toml
 /folder/output.csv
 folder/out.csv
+pandaAI.py
+pandasai.log
+cache/cache_db.db
+folder/ds_salaries.csv
+folder/out.csv
+folder/out.csv

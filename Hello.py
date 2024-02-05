@@ -181,7 +181,7 @@ def run():
     
     
     merge = ["Merge ⬆️", "Merge ⬇️"] 
-    users = ['Jim', 'Sarah P', 'Sarah C', 'Braden', 'Open']
+    users = ['Jim', 'Sarah P', 'Sarah C', 'Braden', 'Open', 'Alice']
     progress = ['Backlog','In Progress', 'Content Review', 'Client Review', 'Done', 'Mot Prioritized', 'Not migrating', 'Blocked']
     config = {
       'count' : st.column_config.TextColumn('effort'),  
@@ -248,8 +248,8 @@ def run():
 
     bcklog=round(backlog/countofRows*100)
     inp = round(inprog/countofRows*100)
-    cont = round(review/countofRows*100)
-    rev = round(content/countofRows*100)
+    cont = round(content/countofRows*100)
+    rev = round(review/countofRows*100)
     don = round(done/countofRows*100)
 
 
